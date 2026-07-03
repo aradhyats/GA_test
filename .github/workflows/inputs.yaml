@@ -4,6 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       tag_name:
+      your_name:
+      your_father name:
+
 
 jobs:
   build:
