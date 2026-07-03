@@ -5,12 +5,12 @@ on:
     inputs:
       tag_name:
         description: "Give the tag name as v1"
-        required: true
       name:
-        description: "Give your full name"
-        required: true
       father name:
+<<<<<<< HEAD
         description: "GIve the full name"
+=======
+>>>>>>> parent of 84db6e2 (checking)
 
 
 jobs:
