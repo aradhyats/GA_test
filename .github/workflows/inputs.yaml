@@ -1,0 +1,9 @@
+name: Manual Docker Build & Push
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Enter the Docker tag version (e.g., v1.0.0)"
+        required: true
+        default: "v1.0.0"
