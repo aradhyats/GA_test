@@ -19,5 +19,5 @@ jobs:
 
       - name: run the command on ubuntu
         run: echo "Hi I am Aradhya TS" |
-            echo "Tag_name: {{inputs.tag_name}}" |
-            echo "Father-name: {{inputs.father_name}}"
+             echo "Tag_name: ${{inputs.tag_name}}" |
+             echo "Father-name: ${{inputs.father_name}}"
