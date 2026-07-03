@@ -5,8 +5,13 @@ on:
     inputs:
       tag_name:
         description: "Give the tag name as v1"
+        required: true
       name:
+        description: "Give your full name"
+        required: true
       father name:
+        description: "GIve the full name"
+        required: true
 
 
 jobs:
