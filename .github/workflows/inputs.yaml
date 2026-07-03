@@ -4,8 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       tag_name:
-      name:
-
+        description: "It should be latest"
+        required: true
+      image_name:
+        description: "Give a proper image name"
+        required: true
 
 jobs:
   build:
@@ -19,3 +22,4 @@ jobs:
         run: | 
             echo "Hi I am Aradhya TS" 
             echo "Tag_name: ${{inputs.tag_name}}" 
+            echo "Father-name: ${{inputs.father_name}}"
