@@ -16,3 +16,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+    steps:
+      - name: run the command on ubuntu
+        run: echo "Hi I am Aradhya TS"
