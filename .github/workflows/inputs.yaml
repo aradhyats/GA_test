@@ -4,9 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tag_name:
-        description: "Give the tag name as v1"
       name:
-      father_name:
 
 
 jobs:
@@ -21,4 +19,3 @@ jobs:
         run: | 
             echo "Hi I am Aradhya TS" 
             echo "Tag_name: ${{inputs.tag_name}}" 
-            echo "Father-name: ${{inputs.father_name}}"
