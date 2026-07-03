@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       tag_name:
+      description: "Give the tag name as v1"
       your_name:
       your_father name:
 
