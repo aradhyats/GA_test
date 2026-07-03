@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: run the command on ubuntu
-        run: echo "Hi I am Aradhya TS" |
-             echo "Tag_name: ${{inputs.tag_name}}" |
-             echo "Father-name: ${{inputs.father_name}}"
+        run: | 
+            echo "Hi I am Aradhya TS" 
+            echo "Tag_name: ${{inputs.tag_name}}" 
+            echo "Father-name: ${{inputs.father_name}}"
