@@ -6,11 +6,7 @@ on:
       tag_name:
         description: "Give the tag name as v1"
       name:
-      father name:
-<<<<<<< HEAD
-        description: "GIve the full name"
-=======
->>>>>>> parent of 84db6e2 (checking)
+      father_name:
 
 
 jobs:
